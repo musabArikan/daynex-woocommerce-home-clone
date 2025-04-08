@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="description" content="Daynex Demo Project" />
+      <meta name="keywords" content="Daynex Tech." />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>daynex | Project</title>
+
+      <link
+         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+         rel="stylesheet"
+      />
+
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+         crossorigin="anonymous"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      />
+      <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+      <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+      <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+   </head>
+
+   <body>
+      <!-- ! Loader Start -->
+      <div id="preloder">
+         <div class="loader"></div>
+      </div>
+      <!-- ! Loader End-->
+
+      <!-- ! Canvas Menu Start -->
+      <div class="offcanvas-menu-overlay"></div>
+      <div class="offcanvas-menu-wrapper">
+         <div class="offcanvas__nav__option">
+            <a href="#" class="search-switch"
+               ><img src="img/icon/search.png" alt=""
+            /></a>
+            <a href="#"><img src="img/icon/heart.png" alt="" /></a>
+            <a href="#"
+               ><img src="img/icon/cart.png" alt="" /> <span>0</span></a
+            >
+            <div class="price">$0.00</div>
+         </div>
+         <div id="mobile-menu-wrap"></div>
+      </div>
+      <!-- ! Canvas Menu End -->
+
+      <!-- ! Header Start -->
+      <header class="header">
+         <div class="header__top d-flex justify-content-center">
+            <div class="container h-100 mx-0">
+               <div class="row h-100 justify-content-center">
+                  <div
+                     class="col-lg-6 col-md-7 d-lg-inline-flex d-none align-items-center"
+                  >
+                     <div class="header__top__left d-inline-flex h-100 col-12">
+                        <div
+                           class="header__top__hover justify-content-center col-lg-2 h-100 d-flex align-items-center header-top-hover-border-left header-top-hover-border-right"
+                        >
+                           <span>ENGLISH<i class="arrow_carrot-down"></i></span>
+                           <ul
+                              class="d-inline-flex flex-column py-3 px-1 gap-2"
+                           >
+                              <li>Deutsch</li>
+                              <li>French</li>
+                              <li>Requires WPML plugin</li>
+                           </ul>
+                        </div>
+                        <div
+                           class="header__top__hover justify-content-center col-lg-2 h-100 d-flex align-items-center header-top-hover-border-right"
+                        >
+                           <span>COUNTRY<i class="arrow_carrot-down"></i></span>
+                           <ul
+                              class="d-inline-flex flex-column py-3 px-1 gap-2"
+                           >
+                              <li>United States (USD)</li>
+                              <li>Deutschland (EUR)</li>
+                              <li>Japan (JPY)</li>
+                           </ul>
+                        </div>
+                        <div
+                           class="col-lg-6 h-100 d-inline-flex align-items-center ms-2 flex-fill"
+                        >
+                           <strong
+                              class="d-inline-flex align-items-center flex-fill"
+                              ><span
+                                 >FREE SHIPPING FOR ALL ORDERS OF $150</span
+                              ></strong
+                           >
+                        </div>
+                     </div>
+                  </div>
+                  <div
+                     class="col-lg-6 col-md-5 d-inline-flex align-items-center pe-0"
+                  >
+                     <div
+                        class="header__top__right d-inline-flex h-100 col-12 justify-content-lg-end justify-content-center"
+                     >
+                        <div
+                           class="justify-content-end col-lg-4 h-100 d-flex align-items-center gap-2"
+                        >
+                           <i class="fa-brands fa-facebook-f"></i
+                           ><i class="fa-brands fa-x-twitter"></i
+                           ><i class="fa-brands fa-instagram"></i
+                           ><i class="fa-brands fa-youtube"></i
+                           ><i class="fa-brands fa-pinterest"></i>
+                        </div>
+
+                        <div
+                           class="justify-content-end header-top-right-text col-lg-6 h-100 d-lg-inline-flex d-none align-items-center"
+                        >
+                           <div
+                              class="header__top__hover justify-content-center col-lg-5 h-100 d-flex align-items-center header-top-hover-border-left header-top-hover-border-right gap-1"
+                           >
+                              <img
+                                 src="https://woodmart.xtemos.com/wp-content/uploads/2017/03/wd-envelope-light.svg"
+                                 alt=""
+                              />
+                              <span>NEWSLETTER</span>
+                           </div>
+                           <div
+                              class="header__top__hover justify-content-center col-lg-4 h-100 d-flex align-items-center header-top-hover-border-right"
+                           >
+                              <span>CONTACT US</span>
+                           </div>
+                           <div
+                              class="header__top__hover justify-content-center col-lg-2 h-100 d-flex align-items-center header-top-hover-border-right"
+                           >
+                              <span>FAQS</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container px-4 px-lg-0">
+            <div
+               class="row justify-content-between justify-lg-content-normal align-items-center align-items-lg-stretch"
+            >
+               <div
+                  class="canvas__open d-flex d-lg-none col-3 align-items-center justify-content-center"
+               >
+                  <i class="fa fa-bars"></i>
+               </div>
+               <div
+                  class="col-lg-3 col-6 logo-cover d-inline-flex align-items-center justify-content-center flex-fill"
+               >
+                  <div class="header__logo">
+                     <a href="#"
+                        ><img
+                           src="https://woodmart.b-cdn.net/wp-content/themes/woodmart/images/wood-logo-dark.svg"
+                           alt=""
+                           style="max-width: 240px"
+                     /></a>
+                  </div>
+               </div>
+               <div
+                  class="col-lg-6 col-2 d-none d-lg-inline-flex align-items-center"
+               >
+                  <div class="input-group">
+                     <input
+                        type="text"
+                        class="form-control"
+                        aria-label="Text input with segmented dropdown button"
+                        placeholder="Search for products"
+                     />
+                     <button
+                        type="button"
+                        class="btn btn-category btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                     >
+                        <span class="me-2">SELECT CATEGORY</span>
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                     </button>
+                     <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Clocks</a></li>
+                        <li>
+                           <a class="dropdown-item" href="#">Lighting </a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#">Furniture</a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#">Cooking</a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#">Toys</a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#">Other</a>
+                        </li>
+                     </ul>
+                     <button type="button" class="btn btn-outline-secondary">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                     </button>
+                  </div>
+               </div>
+               <div class="col-2 col-lg-3 d-inline-flex flex-lg-fill p-0">
+                  <div
+                     class="header__nav__option d-inline-flex align-items-center flex-fill"
+                  >
+                     <span
+                        class="d-none d-lg-inline-flex align-items-center pt-1 text-nowrap px-2"
+                        >LOGIN / REGISTER</span
+                     >
+                     <a
+                        href="#"
+                        class="h-100 d-none d-lg-inline-flex align-items-center justify-content-center m-0 px-2"
+                        ><img src="img/icon/heart.png" alt=""
+                     /></a>
+                     <a
+                        href="#"
+                        class="h-100 d-none d-lg-inline-flex align-items-center justify-content-center px-2"
+                        ><i class="fa-solid fa-shuffle"><span>0</span></i></a
+                     >
+                     <a
+                        href="#"
+                        class="h-100 d-inline-flex align-items-center justify-content-lg-start justify-content-end ps-3 flex-fill price-cover"
+                     >
+                        <i class="bi bi-bag header-bag-icon"><span>0</span></i>
+
+                        <div class="price d-none d-lg-inline-flex">
+                           $0.00
+                        </div></a
+                     >
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- ! Header End -->
+
+      <!-- ! Category Header Start -->
+      <section class="border-top border-bottom d-none d-lg-block">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-3 header-drill-area position-relative">
+                  <!-- ! Relative Area -->
+                  <div class="d-flex gap-2 w-100 h-100 align-items-center">
+                     <i class="fa-solid fa-bars"></i>
+                     <span
+                        class="flex-fill d-inline-flex justify-content-start pt-1"
+                        >BROWSE CATEGORIES</span
+                     >
+                     <i class="fa-solid fa-chevron-down"></i>
+                  </div>
+                  <!-- ! Relative Area -->
+
+                  <!-- ! Absolute Area -->
+                  <div
+                     class="d-inline-flex flex-column header-category-area position-absolute col-12 start-0"
+                  >
+                     <div
+                        class="d-inline-flex p-3 border border-bottom-0 gap-2"
+                     >
+                        <img
+                           src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/chair-1.svg"
+                           alt="Furniture"
+                           width="18"
+                           height="18"
+                           class="wd-nav-img"
+                        />
+                        <span>Furniture</span
+                        ><i class="arrow_carrot-right position-absolute"></i>
+                     </div>
+                     <div
+                        class="d-inline-flex p-3 border gap-2 border-bottom-0"
+                     >
+                        <img
+                           src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/knives-1.svg"
+                           alt="Cooking"
+                           width="18"
+                           height="18"
+                           class="wd-nav-img"
+                        />
+                        <span>Cooking</span
+                        ><i class="arrow_carrot-right position-absolute"></i>
+                     </div>
+                     <div
+                        class="d-inline-flex p-3 border gap-2 border-bottom-0"
+                     >
+                        <img
+                           src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/flower-1.svg"
+                           alt="Accessories"
+                           width="18"
+                           height="18"
+                           class="wd-nav-img"
+                        />
+                        <span>Accessories</span
+                        ><i class="arrow_carrot-right position-absolute"></i>
+                     </div>
+                     <div
+                        class="d-inline-flex p-3 border gap-2 border-bottom-0"
+                     >
+                        <img
+                           src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/003-shirt.svg"
+                           alt="Fashion"
+                           width="18"
+                           height="18"
+                           class="wd-nav-img"
+                        />
+                        <span>Fashion</span
+                        ><i class="arrow_carrot-right position-absolute"></i>
+                     </div>
+                     <div
+                        class="d-inline-flex p-3 border gap-2 border-bottom-0"
+                     >
+                        <img
+                           src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/clock-1.svg"
+                           alt="Clocks"
+                           width="18"
+                           height="18"
+                           class="wd-nav-img"
+                        />
+                        <span>Clocks</span
+                        ><i class="arrow_carrot-right position-absolute"></i>
+                     </div>
+                     <div
+                        class="d-inline-flex p-3 border gap-2 border-bottom-0"
+                     >
+                        <img
+                           src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/light-bulb-1.svg"
+                           alt="Lighting"
+                           width="18"
+                           height="18"
+                           class="wd-nav-img"
+                        />
+                        <span>Lighting</span
+                        ><i class="arrow_carrot-right position-absolute"></i>
+                     </div>
+                     <div
+                        class="d-inline-flex p-3 border gap-2 border-bottom-0"
+                     >
+                        <img
+                           src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/rocking-horse-1.svg"
+                           alt="Toys"
+                           width="18"
+                           height="18"
+                           class="wd-nav-img"
+                        />
+                        <span>Toys</span
+                        ><i class="arrow_carrot-right position-absolute"></i>
+                     </div>
+                     <div
+                        class="d-inline-flex p-3 border gap-2 border-bottom-0"
+                     >
+                        <img
+                           src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/biscuit.svg"
+                           alt="Hand Made"
+                           width="18"
+                           height="18"
+                           class="wd-nav-img"
+                        />
+                        <span>Hand Made</span>
+                     </div>
+                     <div
+                        class="d-inline-flex p-3 border gap-2 border-bottom-0"
+                     >
+                        <img
+                           src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/002-hand-bag.svg"
+                           alt="Minimalism"
+                           width="18"
+                           height="18"
+                           class="wd-nav-img"
+                        />
+                        <span>Minimalism</span>
+                     </div>
+                     <div
+                        class="d-inline-flex p-3 border gap-2 border-bottom-0"
+                     >
+                        <img
+                           src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/004-game-console.svg"
+                           alt="Electronics"
+                           width="18"
+                           height="18"
+                           class="wd-nav-img"
+                        />
+                        <span>Electronics</span>
+                     </div>
+                     <div class="d-inline-flex p-3 border gap-2">
+                        <img
+                           src="https://woodmart.xtemos.com/wp-content/uploads/2017/01/break.svg"
+                           alt="Cars"
+                           width="18"
+                           height="18"
+                           class="wd-nav-img"
+                        />
+                        <span>Cars</span>
+                     </div>
+                  </div>
+                  <!-- ! Absolute Area -->
+               </div>
+               <div class="col-lg-9">
+                  <nav class="header__menu mobile-menu">
+                     <ul class="d-inline-block">
+                        <li class="active">
+                           <a href="#"
+                              >HOME <i class="arrow_carrot-down"></i
+                           ></a>
+                        </li>
+                        <li>
+                           <a href="#"
+                              >SHOP <i class="arrow_carrot-down"></i
+                           ></a>
+                        </li>
+                        <li>
+                           <a href="#"
+                              >BLOG <i class="arrow_carrot-down"></i
+                           ></a>
+                        </li>
+                        <li>
+                           <a href="#"
+                              >PAGES <i class="arrow_carrot-down"></i
+                           ></a>
+                        </li>
+                        <li>
+                           <a href="#"
+                              >ELEMENTS <i class="arrow_carrot-down"></i
+                           ></a>
+                        </li>
+                        <li>
+                           <a href="#">BUY </a>
+                        </li>
+                     </ul>
+
+                     <ul class="d-inline-block float-end">
+                        <li class="active active-border">
+                           <a href="#" class="me-3">SPECIAL OFFER</a>
+                        </li>
+                        <li><a href="#">PURCHASE THEME</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ! Category Header End -->
+
+      <!-- ! Slider Start  -->
+      <section class="hero">
+         <div class="hero__slider owl-carousel position-relative">
+            <!--Slider Product 1-->
+            <div class="hero__items set-bg">
+               <div class="container">
+                  <div class="row align-items-center">
+                     <div class="d-none d-lg-inline-flex col-lg-3"></div>
+                     <div class="col-lg-4 ps-5 pe-0">
+                        <div class="hero__text">
+                           <h2 class="mb-0">Simple -</h2>
+                           <h2 class="mb-2">Rock Chair.</h2>
+                           <p>
+                              Semper vulputate aliquam curae condimentum quisque
+                              gravida fusce convallis arcu cum at.
+                           </p>
+                           <div class="d-inline-flex gap-3 my-4">
+                              <img
+                                 loading="lazy"
+                                 decoding="async"
+                                 width="38"
+                                 height="38"
+                                 src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/swatch-main-demo-11-38x38.jpg"
+                                 class="wd-gallery-image image-1"
+                                 alt=""
+                              /><img
+                                 loading="lazy"
+                                 decoding="async"
+                                 width="38"
+                                 height="38"
+                                 src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-2-38x38.jpg"
+                                 class="wd-gallery-image image-2"
+                                 alt=""
+                              /><img
+                                 loading="lazy"
+                                 decoding="async"
+                                 width="38"
+                                 height="38"
+                                 src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-3-38x38.jpg"
+                                 class="wd-gallery-image image-3"
+                                 alt=""
+                              /><img
+                                 loading="lazy"
+                                 decoding="async"
+                                 width="38"
+                                 height="38"
+                                 src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-4-38x38.jpg"
+                                 class="wd-gallery-image image-4"
+                                 alt=""
+                              />
+                           </div>
+                           <h3 class="slider-price">$199.00</h3>
+                        </div>
+                     </div>
+                     <div class="col-lg-5">
+                        <picture
+                           loading="lazy"
+                           decoding="async"
+                           class="wd-gallery-image image-1"
+                        >
+                           <source
+                              type="image/webp"
+                              srcset="
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1.jpg.webp         544w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-330x300.jpg.webp 330w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-150x136.jpg.webp 150w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-290x264.jpg.webp 290w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-100x91.jpg.webp  100w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-430x391.jpg.webp 430w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-130x118.jpg.webp 130w
+                              "
+                              sizes="(max-width: 544px) 100vw, 544px"
+                           />
+                           <img
+                              loading="lazy"
+                              decoding="async"
+                              width="544"
+                              height="495"
+                              src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1.jpg"
+                              alt=""
+                              srcset="
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1.jpg         544w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-330x300.jpg 330w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-150x136.jpg 150w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-290x264.jpg 290w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-100x91.jpg  100w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-430x391.jpg 430w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-1-130x118.jpg 130w
+                              "
+                              sizes="(max-width: 544px) 100vw, 544px"
+                           />
+                        </picture>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--Slider Product 2-->
+            <div class="hero__items set-bg">
+               <div class="container">
+                  <div class="row align-items-center">
+                     <div class="d-none d-lg-inline-flex col-lg-3"></div>
+                     <div class="col-lg-4 ps-5 pe-0">
+                        <div class="hero__text">
+                           <h2 class="mb-0">Eames -</h2>
+                           <h2 class="mb-2">Side Chair.</h2>
+                           <div
+                              class="d-inline-flex align-items-center gap-3 mb-2"
+                           >
+                              <strong>COLOR:</strong
+                              ><img
+                                 loading="lazy"
+                                 decoding="async"
+                                 width="30"
+                                 height="30"
+                                 src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/color-slider-1-30x30.png"
+                                 class="wd-gallery-image image-1"
+                                 alt=""
+                              /><img
+                                 loading="lazy"
+                                 decoding="async"
+                                 width="30"
+                                 height="30"
+                                 src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/color-slider-2-30x30.png"
+                                 class="wd-gallery-image image-2"
+                                 alt=""
+                              /><img
+                                 loading="lazy"
+                                 decoding="async"
+                                 width="30"
+                                 height="30"
+                                 src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/color-slider-3-30x30.png"
+                                 class="wd-gallery-image image-3"
+                                 alt=""
+                              />
+                           </div>
+                           <p>
+                              Semper vulputate aliquam curae condimentum quisque
+                              gravida fusce convallis arcu cum at.
+                           </p>
+                           <h3 class="slider-price mt-4">Only $99.00</h3>
+                        </div>
+                     </div>
+                     <div class="col-lg-5">
+                        <picture
+                           loading="lazy"
+                           decoding="async"
+                           class="wd-gallery-image image-1"
+                        >
+                           <source
+                              type="image/webp"
+                              srcset="
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-2-light-opt.jpg.webp         410w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-2-light-opt-262x300.jpg.webp 262w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-2-light-opt-131x150.jpg.webp 131w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-2-light-opt-288x330.jpg.webp 288w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-2-light-opt-87x100.jpg.webp   87w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-2-light-opt-130x149.jpg.webp 130w
+                              "
+                              sizes="(max-width: 410px) 100vw, 410px"
+                           />
+                           <img
+                              loading="lazy"
+                              decoding="async"
+                              width="410"
+                              height="469"
+                              src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-2-light-opt.jpg"
+                              alt=""
+                              srcset="
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-2-light-opt.jpg         410w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-2-light-opt-262x300.jpg 262w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-2-light-opt-131x150.jpg 131w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-2-light-opt-288x330.jpg 288w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-2-light-opt-87x100.jpg   87w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-2-light-opt-130x149.jpg 130w
+                              "
+                              sizes="(max-width: 410px) 100vw, 410px"
+                           />
+                        </picture>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--Slider Product 3-->
+            <div class="hero__items set-bg">
+               <div class="container">
+                  <div class="row align-items-center">
+                     <div class="d-none d-lg-inline-flex col-lg-3"></div>
+                     <div class="col-lg-4 ps-5 pe-0">
+                        <div class="hero__text">
+                           <h2 class="mb-0 text-center">Wooden</h2>
+                           <h2 class="mb-2 text-nowrap">Lounge Chairs.</h2>
+                           <p class="text-center">
+                              Semper vulputate aliquam curae condimentum quisque
+                              gravida fusce convallis arcu cum at.
+                           </p>
+                           <h3 class="slider-price mt-4 text-center">
+                              $990.00
+                           </h3>
+                        </div>
+                     </div>
+                     <div class="col-lg-5">
+                        <picture
+                           loading="lazy"
+                           decoding="async"
+                           class="attachment-full size-full"
+                        >
+                           <source
+                              type="image/webp"
+                              srcset="
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt.jpg.webp         780w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-400x242.jpg.webp 400w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-150x91.jpg.webp  150w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-768x464.jpg.webp 768w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-290x175.jpg.webp 290w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-100x60.jpg.webp  100w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-430x260.jpg.webp 430w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-700x423.jpg.webp 700w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-130x79.jpg.webp  130w
+                              "
+                              sizes="(max-width: 780px) 100vw, 780px"
+                           />
+                           <img
+                              loading="lazy"
+                              decoding="async"
+                              width="780"
+                              height="471"
+                              src="https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt.jpg"
+                              alt=""
+                              srcset="
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt.jpg         780w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-400x242.jpg 400w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-150x91.jpg  150w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-768x464.jpg 768w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-290x175.jpg 290w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-100x60.jpg  100w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-430x260.jpg 430w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-700x423.jpg 700w,
+                                 https://woodmart.b-cdn.net/wp-content/uploads/2024/02/slider-main-demo-3-light-opt-130x79.jpg  130w
+                              "
+                              sizes="(max-width: 780px) 100vw, 780px"
+                           />
+                        </picture>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ! Slider End  -->
+
+      <!-- ! Zoom Product Start-->
+      <section class="mb-5 mt-5">
+         <div class="container">
+            <div class="zoom-product-text mb-5">
+               <div class="row">
+                  <div
+                     class="col-12 align-items-center justify-content-center mb-2 d-inline-flex zoom-product-text-1"
+                  >
+                     <span>WOODMART COLLECTIONS</span>
+                  </div>
+                  <div
+                     class="col-12 align-items-center justify-content-center mb-2 d-inline-flex"
+                  >
+                     <h4><strong>FEATURED CATEGORIES</strong></h4>
+                  </div>
+                  <div
+                     class="col-12 align-items-center justify-content-center mb-2 d-inline-flex zoom-product-text-3"
+                  >
+                     <span
+                        >WoodMart is a powerful eCommerce theme for
+                        WordPress.</span
+                     >
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                  <div class="product-box">
+                     <img
+                        src="https://woodmart.b-cdn.net/wp-content/uploads/2016/06/cat-23-430x430.jpg"
+                        alt=""
+                        class="product-img"
+                     />
+                     <div class="product-title">FURTNITURE</div>
+                     <div class="product-count">33 products</div>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-6">
+                  <div class="row g-4">
+                     <div class="col-6">
+                        <div class="product-box">
+                           <img
+                              src="https://woodmart.b-cdn.net/wp-content/uploads/2016/06/cat-klock-430x430.jpg"
+                              alt=""
+                              class="product-img"
+                           />
+                           <div class="product-title">CLOCKS</div>
+                           <div class="product-count">12 products</div>
+                        </div>
+                     </div>
+                     <div class="col-6">
+                        <div class="product-box">
+                           <img
+                              src="https://woodmart.b-cdn.net/wp-content/uploads/2016/06/cat-clock-3-430x430.jpg"
+                              alt=""
+                              class="product-img"
+                           />
+                           <div class="product-title">ACCESSORIES</div>
+                           <div class="product-count">12 products</div>
+                        </div>
+                     </div>
+                     <div class="col-6">
+                        <div class="product-box">
+                           <img
+                              src="https://woodmart.b-cdn.net/wp-content/uploads/2016/06/light-cat-5-430x430.jpg"
+                              alt=""
+                              class="product-img"
+                           />
+                           <div class="product-title">LIGHTING</div>
+                           <div class="product-count">17 products</div>
+                        </div>
+                     </div>
+                     <div class="col-6">
+                        <div class="product-box">
+                           <img
+                              src="https://woodmart.b-cdn.net/wp-content/uploads/2016/06/Toys-cat-1-430x430.jpg"
+                              alt=""
+                              class="product-img"
+                           />
+                           <div class="product-title">TOYS</div>
+                           <div class="product-count">12 products</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ! Zoom Product End-->
+      <!-- ! Script Src -->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+         crossorigin="anonymous"
+      ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+         crossorigin="anonymous"
+      ></script>
+
+      <script src="js/jquery.slicknav.js"></script>
+
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/main.js"></script>
+      <!-- ! Script Src -->
+   </body>
+</html>
